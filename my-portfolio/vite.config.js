@@ -7,5 +7,5 @@ export default defineConfig({
     tailwindcss(),
     svelte(),
   ],
-  base: '/guilherme-camarada.github.io/',
+  base: '/',
 })

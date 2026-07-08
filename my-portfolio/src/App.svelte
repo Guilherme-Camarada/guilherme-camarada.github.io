@@ -13,7 +13,7 @@
         title: "Cyber Gauntlet",
         date: "May 2026 - Jul 2026",
         description: `My initial goal for this project was to build a <strong class="font-bold text-white">FPS weapon mechanics</strong> and a <strong class="font-bold text-white">FPS controller</strong> in Unity. It evolved into a <strong class="font-bold text-white">first-person wave-survival shooter</strong> featuring those mechanics, supported by <strong class="font-bold text-white">wave spawning logic</strong> and a <strong class="font-bold text-white">modular runtime roguelite upgrade system</strong>.`,
-        image: "/Images/CyberGauntlet/cyber.png",
+        image: "public/Images/CyberGauntlet/cyber.png",
         engineIcon: "devicon-unity-original",
         itchLink: "https://lskingg.itch.io/cyber-gauntlet",
         githubLink: "https://github.com/Guilherme-Camarada/Soulslike_FPS_Shooter"
@@ -23,7 +23,7 @@
         title: "Death to the King",
         date: "May 2026",
         description: `Created for 'The Eye Jam' under an eldritch horror theme, this <strong class="font-bold text-white">point-and-click escape game</strong> follows a cultist attempting to summon a god by sacrificing the king. As the <strong class="font-bold text-white">programming team lead</strong>, my core contributions included engineering, <strong class="font-bold text-white">text-selection puzzle mechanics</strong>, and the <strong class="font-bold text-white">interactive book system</strong>.`,
-        image: "/Images/DeathTTK/DTTK thumbnail.png",
+        image: "public/Images/DeathTTK/DTTK thumbnail.png",
         engineIcon: "devicon-unity-original",
         itchLink: "https://tetaban.itch.io/deathtotheking",
         githubLink: "https://github.com/manhthai4391/EyeJamGame"
@@ -33,7 +33,7 @@
         title: "Torchpunk: Dices & Cards",
         date: "Jul 2025 - Oct 2025",
         description: `During my internship at <strong class="font-bold text-white">Overflow Interactive</strong>, I contributed to the development of this <strong class="font-bold text-white">strategy roguelite</strong> game. My responsibilities focused on engineering <strong class="font-bold text-white">core gameplay mechanics</strong>, including <strong class="font-bold text-white">A* pathfinding</strong> on hex grids, <strong class="font-bold text-white">3D physics dice</strong>, <strong class="font-bold text-white">procedural map generation</strong> systems and <strong class="font-bold text-white">modular upgrade systems</strong>.`,
-        image: "/Images/Torchpunk/Torchpunk.png",
+        image: "public/Images/Torchpunk/Torchpunk.png",
         engineIcon: "devicon-unity-original",
         websiteLink: "https://overflowinteractive.com/"
     },
@@ -42,7 +42,7 @@
         title: "Plants R' Pets",
         date: "Jan 2025 - Jul 2025",
         description: `Developed the <strong class="font-bold text-white">Plant Wiki</strong> and co-engineered the <strong class="font-bold text-white">Plantations</strong> functionality for a <strong class="font-bold text-white">garden tracking web app</strong>. The application helps users monitor vital plant indicators such as watering, pruning, and sun exposure while providing an <strong class="font-bold text-white">educational wiki</strong> for ongoing plant care.`,
-        image: "/Images/PlantsRPets/plants-are-pets.png",
+        image: "public/Images/PlantsRPets/plants-are-pets.png",
         engineIcon: "devicon-unity-original",
         githubLink: "https://github.com/RodrigoGordo/PlantsRPets"
     },
@@ -51,7 +51,7 @@
         title: "Hourglass of Eternity",
         date: "May 2024 - Jul 2024",
         description: `Led the development of a <strong class="font-bold text-white">roguelite turn-based combat</strong> game for my final Game Development class project. Leading a team of four, we delivered a <strong class="font-bold text-white">vertical slice</strong> where players navigate a map, confront progressively stronger enemies, and <strong class="font-bold text-white">collect strategic upgrades</strong> to defeat the final boss.`,
-        image: "/Images/Hourglass/hourglass-of-eternity.png",
+        image: "public/Images/Hourglass/hourglass-of-eternity.png",
         engineIcon: "devicon-unity-original",
         itchLink: "https://lskingg.itch.io/hourglass-of-eternity"
     },
@@ -60,7 +60,7 @@
         title: "Lucid Nightmare",
         date: "May 2024",
         description: `Developed for a class game jam under the theme 'Chaos', this is a <strong class="font-bold text-white">Vampire Survivors-like</strong> arena game created by a team of three. Players face increasingly difficult enemy waves over time and <strong class="font-bold text-white">unlock abilities</strong> as they <strong class="font-bold text-white">level up</strong> and progress.`,
-        image: "/Images/LucidNightmare/lucid-nightmare.png",
+        image: "public/Images/LucidNightmare/lucid-nightmare.png",
         engineIcon: "devicon-unity-original",
         itchLink: "https://lskingg.itch.io/lucid-nightmare"
     }
