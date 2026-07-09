@@ -1,10 +1,11 @@
 <script>
-    export let id;
     export let title;
     export let date;
     export let description;
     export let image;
-    export let engineIcon;
+
+    /** @type {string[]} */
+    export let engineIcons = [];
 
     /** @type {string | null} */
     export let itchLink = null;
@@ -28,12 +29,17 @@
             
             <!-- Title & Icons Row -->
             <div class="flex items-center gap-3">
-                <a href="/projects/{id}" class="text-2xl font-bold text-white hover:text-[#64ffda] transition truncate min-w-0">
+                <button 
+                    on:click
+                    class="text-left text-2xl font-bold text-white hover:text-[#64ffda] transition truncate min-w-0 cursor-pointer"
+                >
                     {title}
-                </a>
+                </button>
     
                 <div class="flex items-center gap-3 shrink-0 text-2xl text-[#a0aec0]">
-                    <i class="{engineIcon} text-[#64ffda] opacity-75 cursor-default" title="Built with this engine"></i>
+                    {#each engineIcons as icon}
+                        <i class="{icon} text-[#64ffda] opacity-75 cursor-default" title="Tech stack"></i>
+                    {/each}
                 
                 {#if githubLink}
                     <a href={githubLink} target="_blank" rel="noreferrer" aria-label="View Source on GitHub" class="hover:text-white transition duration-300">
@@ -68,8 +74,13 @@
 
     <!-- Right Column: Image -->
     <div class="w-full md:w-2/5 shrink-0 mt-6 md:mt-0 h-48 md:h-full flex items-center justify-center">
-        <a href="/projects/{id}" class="block w-full h-full overflow-hidden rounded border border-white/10">
-            <img src={image} alt={title} class="w-full h-full object-cover hover:scale-105 transition duration-500" />
-        </a>
+        
+        <button 
+            on:click
+            class="block w-full h-full overflow-hidden rounded border border-white/10 cursor-pointer"
+            aria-label="View project details"
+        >
+            <img src={image} alt="Gameplay screenshot" class="w-full h-full object-cover hover:scale-105 transition duration-500" />
+        </button>
     </div>
 </div>
