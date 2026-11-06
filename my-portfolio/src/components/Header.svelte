@@ -18,7 +18,7 @@
 
 <!-- Download Resume Button -->
 <div class="flex justify-center mb-10">
-    <a href="/Guilherme-Camarada-Resume.pdf" download="Guilherme_Camarada_Resume.pdf" class="inline-flex items-center gap-3 px-8 py-3 bg-white/5 hover:bg-white/10 border border-white/30 rounded tracking-wider font-semibold transition duration-300">
+    <a href="/Guilherme-Camarada-Resume.pdf" download="Guilherme Camarada_CV_SoftwareEngineer.pdf" class="inline-flex items-center gap-3 px-8 py-3 bg-white/5 hover:bg-white/10 border border-white/30 rounded tracking-wider font-semibold transition duration-300">
         <i class="fas fa-download"></i>
         DOWNLOAD RESUME
     </a>
